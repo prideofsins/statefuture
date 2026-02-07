@@ -46,7 +46,7 @@
         }
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
             gap: 15px;
         }
         .product {
@@ -155,7 +155,7 @@
 </head>
 <body>
     <header>
-        <h1>Future Store Kami</h1>
+        <h1>Selamat datang di Future Store Kami</h1>
         <nav>
             <button onclick="showCategory('all')">Semua Produk</button>
             <button onclick="showCategory('barang')">Barang</button>
@@ -171,11 +171,11 @@
         </div>
 
         <div id="productContainer" class="product-grid">
-            <!-- Produk makanan -->
+            <!-- Produk makanan 1 -->
             <div class="product" id="product1" data-category="makanan">
                 <img src="asset/image/cireng sedang.jpeg" alt="Cireng Sedang">
                 <h3>Cireng sedang</h3>
-                <p>Penjelasan: gratis pengiriman jika pembelian diatas pembelian tertentu</p>
+                <p>Penjelasan: Pembelian dilakukan dengan system Pre-order(po)</p>
                 <div class="options">
                     <label>isian:</label>
                     <select>
@@ -197,11 +197,11 @@
                 </div>
                 <button class="order-btn" onclick="orderNow('product1')">Order Now</button>
             </div>
-
+            <!-- Produk barang 2 -->
             <div class="product" id="product2" data-category="barang">
                 <img src="asset/image/bucket.jpeg" alt="bucket">
                 <h3>Bucket bunga</h3>
-                <p>Penjelasan: bucket untuk pacar tercinta anda</p>
+                <p>Penjelasan: Pembelian dilakukan dengan system Pre-order(po)</p>
                 <div class="options">
                     <label>harga:</label>
                     <select>
@@ -213,11 +213,11 @@
                 <button class="order-btn" onclick="orderNow('product2')">Order Now</button>
             </div>
 
-            <!-- makanan -->
+            <!-- makanan  3 -->
             <div class="product" id="product3" data-category="makanan">
                 <img src="asset/image/brownies.jpeg" alt="brownies">
                 <h3>Brownies</h3>
-                <p>Penjelasan: manis dan empuk.</p>
+                <p>Penjelasan:Pembelian dilakukan dengan system Pre-order(po)</p>
                 <div class="options">
                     <label>Rasa:</label>
                     <select>
@@ -234,13 +234,13 @@
                 </div>
                 <button class="order-btn" onclick="orderNow('product3')">Order Now</button>
             </div>
-
+<!-- Produk makanan 4 -->
             <div class="product" id="product4" data-category="makanan">
-                <img src="asset/image/cirengmini.jpeg" alt="mini cireng">
-                <h3>Cireng Mini</h3>
-                <p>Penjelasan: mantap .</p>
+                <img src="asset/image/cirengmini.jpeg" alt="Cireng Mini">
+                <h3>Cireng mini</h3>
+                <p>Penjelasan: Pembelian dilakukan dengan system Pre-order(po)</p>
                 <div class="options">
-                    <label>isian</label>
+                    <label>isian:</label>
                     <select>
                         <option>keju</option>
                         <option>ayam suwir</option>
@@ -254,34 +254,58 @@
                         <option>pedas</option>
                         <option>original</option>
                         <option>chili oil</option>
+                    </select>
                     <label>Jumlah:</label>
                     <input type="number" min="1" value="1">
                 </div>
                 <button class="order-btn" onclick="orderNow('product4')">Order Now</button>
             </div>
-
-            <!-- Produk Makanan -->
-            <div class="product" id="product5" data-category="coming soon">
-                <img src="https://via.placeholder.com/300x200?text=Kopi" alt="coming soon">
-                <h3>coming soon</h3>
-                <p>Penjelasan: .</p>
+<!-- makanan 5-->
+            <div class="product" id="product5" data-category="makanan">
+                <img src="asset/image/cilok.jpeg" alt="Cilok">
+                <h3>Cilok Kuah</h3>
+                <p>Penjelasan:Pembelian dilakukan dengan system Pre-order(po)</p>
                 <div class="options">
-                    <label>Kemasan:</label>
+                    <label>isian:</label>
                     <select>
-                        <option>-</option>
-                        <option>-</option>
-                        <option>-</option>
+                        <option>keju</option>
+                        <option>ayam suwir</option>
+                        <option>sosis</option>
+                    </select>
+                    <label>Rasa:</label>
+                    <select>
+                        <option>pedas</option>
+                        <option>original</option>
+                        <option>chili oil</option>
                     </select>
                     <label>Jumlah:</label>
                     <input type="number" min="1" value="1">
                 </div>
                 <button class="order-btn" onclick="orderNow('product5')">Order Now</button>
             </div>
+<!-- Produk makanan 6 -->
+                        <div class="product" id="product6" data-category="makanan">
+                <img src="asset/image/chicken mini.jpeg" alt="Chicken Mini">
+                <h3>Chicken Mini</h3>
+                <p>Penjelasan: Pembelian dilakukan dengan system Pre-order(po)</p>
+                <div class="options">
+                    <label>Rasa:</label>
+                    <select>
+                        <option>pedas</option>
+                        <option>original</option>
+                        <option>chili oil</option>
+                    </select>
+                    <label>Jumlah:</label>
+                    <input type="number" min="1" value="1">
+                </div>
+                <button class="order-btn" onclick="orderNow('product6')">Order Now</button>
+            </div>
 
-            <div class="product" id="product6" data-category="comming soon">
-                <img src="https://via.placeholder.com/300x200?text=Coklat" alt="coming soon">
-                <h3>Coming soon</h3>
-                <p>Penjelasan: </p>
+            <!-- Produk Makanan 7-->
+                        <div class="product" id="product7" data-category="makanan">
+                <img src="asset/image/ayam katsu.jpeg" alt="Ayam Katsu">
+                <h3>Ayam katsu</h3>
+                <p>Penjelasan:Pembelian dilakukan dengan system Pre-order(po) </p>
                 <div class="options">
                     <label>Varian:</label>
                     <select>
@@ -292,21 +316,22 @@
                     <label>Jumlah:</label>
                     <input type="number" min="1" value="1">
                 </div>
-                <button class="order-btn" onclick="orderNow('product6')">Order Now</button>
+                <button class="order-btn" onclick="orderNow('product7')">Order Now</button>
             </div>
         </div>
 
+
         <div class="contact">
             <h2>Kontak Kami untuk Pembelian</h2>
-            <p>Email: info@tokoonline.com</p>
-            <p>Telepon: +62 812-3456-7890</p>
+            <p>Email: futurestoresell@gmail.com</p>
+            <p>Telepon: +62 838-6977-2065</p>
             <p>WhatsApp: <a href="http://wa.me/6283869772065" target="_blank">Klik di sini</a></p>
-            <p>Alamat: Jl. Contoh No. 123, Kota ABC</p>
+            <p>Alamat: Jl. Raya Mrebet, Kab Purbalingga</p>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2023 Toko Online. Semua hak dilindungi.</p>
+        <p>&copy; 2026 Future Store. Semua jenis terjamin.</p>
     </footer>
 
     <script>
@@ -355,4 +380,5 @@
         }
     </script>
 </body>
+
 </html>
