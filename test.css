@@ -1,0 +1,22 @@
+/* Rapikan pilihan isian, rasa, jumlah */
+.options {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px 10px;
+    align-items: center;
+}
+
+/* Label rata kiri & konsisten */
+.options label {
+    font-size: 14px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Select & input full rapi */
+.options select,
+.options input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
