@@ -1,4 +1,10 @@
 /* Rapikan pilihan isian, rasa, jumlah */
+@media screen and (max-width: 480px) {
+    .options {
+        grid-template-columns: auto 1fr;
+        gap: 6px 8px;
+    }
+}
 .options {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -19,4 +25,5 @@
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+
 }
