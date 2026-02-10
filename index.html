@@ -127,12 +127,16 @@
         /* Media Queries untuk HP (layar kecil) */
         @media (max-width: 768px) {
             nav button {
-                font-size: 13px;
+                font-size: 12px;
                 padding: 8px 12px;
             }
             .product-grid {
-                grid-template-columns: 2fr;/* 1 kolom di HP */
-                gap: 8px;
+                grid-template-columns: 1fr; /* 1 kolom di HP */
+                gap: 10px;
+            }
+            .options label {
+                margin-top: 6px;
+                font-weight: bold; 
             }
             .product img {
                 height: 150px;
@@ -147,7 +151,7 @@
                 width: 100%;
             }
             .order-btn {
-                padding: 18px;
+                padding: 15px;
                 font-size: 18px;
             }
         }
@@ -382,6 +386,7 @@
 </body>
 
 </html>
+
 
 
 
